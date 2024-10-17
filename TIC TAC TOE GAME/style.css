@@ -1,0 +1,133 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-image: url("playful-tic-tac-toe-free-vector.jpg");
+    text-align: center;
+    font-family: "Gill Sans", sans-serif;
+}
+
+#heading {
+    margin: 10vmin 0 3vmin 0;
+    color: #234850;
+    font-weight: 800;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    padding: 0.2rem 0.8rem 0.2rem 0.8rem;
+    border-radius: 0.7rem;
+    background-color: #e5b927;
+}
+
+.container {
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    height: 60vmin;
+    width: 60vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap: 1.5vmin;
+}
+
+.box {
+    height: 18vmin;
+    width: 18vmin;
+    background-color: rgb(218, 227, 232);
+    border-radius: 0.4rem;
+    border: none;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.1);
+    font-size: 9.5vmin;
+    transition: all 0.2s ease;
+}
+
+.box:hover {
+    background-color: #3b6b7562;
+}
+
+#reset-btn {
+    padding: 0.8rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #1a3b41;
+    background-color: #e5b927;
+    border: none;
+    border-radius: 0.8rem;
+    margin-top: 3vmin;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+}
+
+#reset-btn:hover {
+    background-color: #289fe9;
+    color: #1a3b41;
+}
+
+.msg-container {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#new-btn {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #1a3b41;
+    background-color: #e5b927;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 3vmin;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    transition: all 0.2s ease;
+}
+
+#new-btn:hover {
+    background-color: #289fe9;
+    color: #1a3b41;
+}
+
+.msg-container-tie {
+    height: 100vmin;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#new-btn-tie {
+    padding: 0.5rem;
+    font-size: 0.9rem;
+    font-weight: 600;
+    color: #1a3b41;
+    background-color: #e5b927;
+    border: none;
+    border-radius: 0.5rem;
+    margin-top: 3vmin;
+    box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+    transition: all 0.3s ease;
+}
+
+#new-btn-tie:hover {
+    background-color: #289fe9;
+    color: #1a3b41;
+}
+
+#msgW, #msgT {
+    color: #e5b927;
+    font-size: 6vmin;
+    font-weight: 600;
+}
+
+.hide {
+    display: none;
+}
